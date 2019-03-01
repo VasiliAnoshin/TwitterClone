@@ -4,6 +4,7 @@ import { handleInitialData } from '../actions/shared'
 import Dashboard from './Dashboard'
 import LoadingBar from 'react-redux-loading'
 import NewTweet from './NewTweet.js'
+import Tweet from './Tweet';
 
 class App extends Component {
   componentDidMount(){
